@@ -1,8 +1,8 @@
 package sorting;
 
-public class InsertionSort {
+public class InsertionSort4_3 {
     /**
-     * 插入排序
+     * 4、插入排序
      * 从小到大
      * @param nums
      */

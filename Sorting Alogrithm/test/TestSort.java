@@ -25,19 +25,19 @@ public class TestSort {
 
         // 1.1、冒泡排序
         long start11 = System.currentTimeMillis();
-        BubbleSort.bubbleSort(array11);
+        BubbleSort1_3.bubbleSort(array11);
         long end1 = System.currentTimeMillis();
         System.out.println("1.1、BubbleSort time cost:"+(end1-start11)+"ms");
 
         //1.2、冒泡排序
         long start12 = System.currentTimeMillis();
-        BubbleSort.BubbleSortImprove(array12);
+        BubbleSort1_3.BubbleSortImprove(array12);
         end1 = System.currentTimeMillis();
         System.out.println("1.2、BubbleSort time cost:"+(end1-start12)+"ms");
 
         //1.3、冒泡排序
         long start13 = System.currentTimeMillis();
-        BubbleSort.sort(array13);
+        BubbleSort1_3.sort(array13);
         end1 = System.currentTimeMillis();
         System.out.println("1.3、BubbleSort time cost:"+(end1-start13)+"ms");
 

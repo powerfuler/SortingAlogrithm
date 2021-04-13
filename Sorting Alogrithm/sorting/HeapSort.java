@@ -3,9 +3,7 @@ package sorting;
 import java.util.Random;
 
 /**
- * Writer: codesky
- * Time: 2017/7/29
- * Description: 堆排序.
+ * 5、堆排序
  */
 public class HeapSort {
      final static int MAX=10000; //待排序数组大小

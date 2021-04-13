@@ -6,9 +6,9 @@ import java.util.Map;
 import java.util.Stack;
 
 /**
- * 快速排序 升序排序
+ * 2、快速排序 升序排序
  */
-public class QuickSort {
+public class QuickSort2_2 {
 
     public static void quickSort(int[] nums) {
         partition(nums, 0, nums.length - 1);

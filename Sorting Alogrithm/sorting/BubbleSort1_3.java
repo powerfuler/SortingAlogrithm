@@ -1,10 +1,10 @@
 package sorting;
 
 /**
- * 冒泡排序
+ * 1、冒泡排序
  * 从小到大
  */
-public class BubbleSort {
+public class BubbleSort1_3 {
 
 	/**
 	 * 一般排序

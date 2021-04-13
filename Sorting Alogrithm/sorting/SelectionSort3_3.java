@@ -1,8 +1,8 @@
 package sorting;
 
-public class SelectionSort {
+public class SelectionSort3_3 {
     /**
-     * 选择排序
+     * 3、选择排序
      * 从小到大
      * @param nums
      */
