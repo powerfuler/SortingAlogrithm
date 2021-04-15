@@ -1,21 +1,21 @@
 # 排序算法的实现与总结
-* [1.选择排序 Selection Sort](#1选择排序-selection-sort)
-* [2.冒泡排序 Bubble Sort](#2冒泡排序-bubble-sort)
-* [3.插入排序 Insertion Sort](#3插入排序-insertion-sort)
-* [4.归并排序 Merge Sort](#4归并排序-merge-sort)
-* [5.快速排序 Quick Sort](#5快速排序-quick-sort)
-* [6.堆排序 Heap Sort](#6堆排序-heap-sort)
+
+* [1、冒泡排序 BubbleSort1_3](#1冒泡排序-BubbleSort1_3)
+* [2、快速排序 QuickSort2_2](#2快速排序-QuickSort2_2)
+* [3、选择排序 SelectionSort3_3](#3选择排序-SelectionSort3_3)
+* [4、插入排序 InsertionSort4_3](#4插入排序-InsertionSort4_3)
+* [5、希尔排序 MShellSort5_2](#5希尔排序-ShellSort5_2)
+* [6、归并排序 MergeSort6_2](#6归并排序-MergeSort6_2)
+* [7、堆排序 HeapSort7_2](#7堆排序-HeapSort7_2)
 * [7.总结 summary](#7排序算法总结)
 
 
 **所有的讨论都是基于从小到大的排序**
 
-### 1.选择排序 Selection Sort
+### 1.冒泡排序 Bubble Sort
 
-遍历数组元素，每一趟都选出最小的元素,每遍历一次起始位置往后挪一位……重复这一过程，直至遍历完数组。总共需要遍历n-1次数组，算法的时间复杂度为O(n^2).
-排序时间与输入无关，最佳情况，最坏情况都是如此, **不稳定**。
-
-### 2.冒泡排序 Bubble Sort
+博客参看：
+https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653194666&idx=1&sn=69ce32870c0b981c40b1e124fbb6bba8&chksm=8c99fb70bbee72668cad223892ad362525d215e7f936458f99dd289eb82981099359310e9e54&scene=21#wechat_redirect
 
 不断比较相邻元素，如果不满足约定的关系，就交换两者位置，因此大的数就会逐步后挪。从1到n-1个元素持续同样的操作，
 直至排序完成。算法时间复杂度为O(n^2),排序时间与输入无关，最好，最差，平均都是O(n^2),**稳定**.
@@ -25,6 +25,13 @@
 
 **优化方法**:设置一个标志flag,当某趟排序过程没有进行数据交换flag=0，说明
 已经完成了排序，程序可以结束了。
+
+### 2.选择排序 Selection Sort
+博客参看：
+https://mp.weixin.qq.com/s?__biz=MzIxMjE5MTE1Nw==&mid=2653198991&idx=1&sn=7f98d59898a911e1425baa6cc180c598&chksm=8c99e855bbee61439086680ceefef33c56038c5d552ae64c1d6135abe467b617aa62f4934f36&scene=21#wechat_redirect
+
+遍历数组元素，每一趟都选出最小的元素,每遍历一次起始位置往后挪一位……重复这一过程，直至遍历完数组。总共需要遍历n-1次数组，算法的时间复杂度为O(n^2).
+排序时间与输入无关，最佳情况，最坏情况都是如此, **不稳定**。
 
 
 ### 3.插入排序 Insertion Sort
@@ -46,6 +53,9 @@
 插入排序适合数据量小的排序
 
 ### 4.归并排序 Merge Sort
+
+https://www.cnblogs.com/chengxiao/p/6194356.html
+
 ![Merge Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Merge-sort-example-300px.gif)
 
 归并排序是采用分治法典型的例子，核心思想是先递归分解数组，再合并数组。
@@ -77,6 +87,9 @@
 
 
 ### 6.堆排序 Heap Sort
+
+博客参看:
+https://www.cnblogs.com/chengxiao/p/6129630.html
 
 ![Quick Sort](https://github.com/JHWen/SortingAlogrithm/blob/master/images/Heapsort-example.gif)
 

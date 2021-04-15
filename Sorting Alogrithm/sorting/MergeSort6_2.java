@@ -3,7 +3,7 @@ package sorting;
 import java.util.Arrays;
 
 /**
- * 5、归并排序
+ * 6、归并排序
  * 从小到大
  */
 
